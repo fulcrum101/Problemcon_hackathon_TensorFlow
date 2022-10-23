@@ -25,7 +25,8 @@ theme:
 hide:
   - navigation
 
-repo_url: https://github.com/fulcrum101/Problemcon_hackathon_TensorFlow
+repo_url: https://github.com/fulcrum101/Problemcon_hackathon_TensorFlow/
+repo_name: fulcrum101/Problemcon_hackathon_TensorFlow
 
 extra:
   homepage: https://www.problemcon.lv
