@@ -1,9 +1,13 @@
 site_name: ProblemCon++ 2.0 hackahon workshop - NN basics with TensorFlow
 theme:
   name: material
+  palette:
+    scheme: slate
 nav:
   - Home: index.md
   - Notebook page: index.ipynb
 
 plugins:
-  - mkdocs-jupyter
+  - search
+  - mkdocs-jupyter:
+      theme: dark
