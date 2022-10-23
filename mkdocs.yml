@@ -25,4 +25,4 @@ repo_url: https://github.com/fulcrum101/Problemcon_hackathon_TensorFlow
 plugins:
   - search
   - mkdocs-jupyter:
-      - theme: chesterish
+      - theme: dark
