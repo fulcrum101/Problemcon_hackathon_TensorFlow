@@ -22,6 +22,8 @@ theme:
           name: Switch to light mode
 #nav:
   #- Notebook page: index.ipynb
+hide:
+  - navigation
 
 repo_url: https://github.com/fulcrum101/Problemcon_hackathon_TensorFlow
 
