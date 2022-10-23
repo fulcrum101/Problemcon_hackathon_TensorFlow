@@ -5,10 +5,9 @@ theme:
     scheme: slate
   logo: logo.png
 nav:
-  - Home: index.md
   - Notebook page: index.ipynb
 
 plugins:
   - search
   - mkdocs-jupyter:
-      theme: dark
+      theme: chesterish
