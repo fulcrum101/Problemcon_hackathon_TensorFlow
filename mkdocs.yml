@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: ProblemCon++ 2.0 hackahon workshop - NN basics with TensorFlow
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Notebook page: index.ipynb
+plugins: mkdocs-jupyter
