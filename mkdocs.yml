@@ -1,12 +1,28 @@
 site_name: ProblemCon++ 2.0 hackahon workshop - NN basics with TensorFlow
 theme:
   name: material
-  palette:
-    scheme: slate
-  logo: logo.png
+  theme:
+    icon:
+      repo: fontawesome/brands/github
+    palette:
+
+      # Palette toggle for light mode
+      - scheme: default
+        toggle:
+          icon: material/material/toggle-switch
+          name: Switch to dark mode
+
+      # Palette toggle for dark mode
+      - scheme: slate
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to light mode
 nav:
   - Notebook page: index.ipynb
 
+repo_url: https://github.com/fulcrum101/Problemcon_hackathon_TensorFlow
+
 plugins:
   - search
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      - theme: chesterish
