@@ -3,6 +3,7 @@ theme:
   name: material
   palette:
     scheme: slate
+  logo: logo.png
 nav:
   - Home: index.md
   - Notebook page: index.ipynb
