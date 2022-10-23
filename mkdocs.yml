@@ -2,6 +2,7 @@ site_name: ProblemCon++ 2.0 hackahon workshop - NN basics with TensorFlow
 theme:
   name: material
   theme:
+    logo: logo.png
     icon:
       repo: fontawesome/brands/github
     palette:
@@ -19,10 +20,13 @@ theme:
         toggle:
           icon: material/toggle-switch-off-outline
           name: Switch to light mode
-nav:
-  - Notebook page: index.ipynb
+#nav:
+  #- Notebook page: index.ipynb
 
 repo_url: https://github.com/fulcrum101/Problemcon_hackathon_TensorFlow
+
+extra:
+  homepage: https://www.problemcon.lv
 
 plugins:
   - search
