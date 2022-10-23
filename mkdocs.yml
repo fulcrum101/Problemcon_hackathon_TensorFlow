@@ -9,5 +9,4 @@ nav:
 
 plugins:
   - search
-  - mkdocs-jupyter:
-      theme: chesterish
+  - mkdocs-jupyter
