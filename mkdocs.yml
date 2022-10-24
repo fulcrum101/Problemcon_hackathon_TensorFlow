@@ -9,6 +9,8 @@ theme:
   logo: logo.png
   icon:
     repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
   palette:
       # Palette toggle for light mode
     - scheme: default
@@ -22,6 +24,7 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
 nav:
+  - index.md
   - Introduction: introduction.ipynb
   - Part 1 Regression: part_1.ipynb
   - Part 2 Computer Visiom: part_2.ipynb
