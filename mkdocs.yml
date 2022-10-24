@@ -30,6 +30,9 @@ nav:
   - Part 2 Computer Visiom: part_2.ipynb
   - Useful links: useful_links.ipynb
 
+hide:
+  - navigation
+
 
 
 
