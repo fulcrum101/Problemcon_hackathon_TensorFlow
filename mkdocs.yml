@@ -16,8 +16,16 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
-hide:
-  - navigation
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tabs.sticky
+nav:
+  - Introduction: introduction.ipynb
+  - Part 1 - Regression: part_1.ipynb
+  - Part 2 Computer Visiom: part_2.ipynb
+  - Useful links: useful_links.ipynb
 
 repo_url: https://github.com/fulcrum101/Problemcon_hackathon_TensorFlow/
 repo_name: fulcrum101/Problemcon_hackathon_TensorFlow
