@@ -1,4 +1,9 @@
 site_name: NN basics with TensorFlow
+repo_url: https://github.com/fulcrum101/Problemcon_hackathon_TensorFlow/
+repo_name: fulcrum101/Problemcon_hackathon_TensorFlow
+extra:
+  homepage: https://www.problemcon.lv
+
 theme:
   name: material
   logo: logo.png
@@ -18,15 +23,13 @@ theme:
         name: Switch to light mode
 nav:
   - Introduction: introduction.ipynb
-  - Part 1 - Regression: part_1.ipynb
+  - Part 1 Regression: part_1.ipynb
   - Part 2 Computer Visiom: part_2.ipynb
   - Useful links: useful_links.ipynb
 
-repo_url: https://github.com/fulcrum101/Problemcon_hackathon_TensorFlow/
-repo_name: fulcrum101/Problemcon_hackathon_TensorFlow
 
-extra:
-  homepage: https://www.problemcon.lv
+
+
 
 plugins:
   - search
