@@ -16,11 +16,6 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
-  features:
-    - navigation.indexes
-    - navigation.tabs
-    - navigation.instant
-    - navigation.tabs.sticky
 nav:
   - Introduction: introduction.ipynb
   - Part 1 - Regression: part_1.ipynb
