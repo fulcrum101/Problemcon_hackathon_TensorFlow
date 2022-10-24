@@ -2,8 +2,8 @@ site_name: NN basics with TensorFlow
 theme:
   name: material
   logo: logo.png
-    icon:
-      repo: fontawesome/brands/github
+  icon:
+    repo: fontawesome/brands/github
   palette:
       # Palette toggle for light mode
     - scheme: default
