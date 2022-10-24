@@ -1,27 +1,21 @@
 site_name: NN basics with TensorFlow
 theme:
   name: material
-  theme:
-    logo: logo.png
+  logo: logo.png
     icon:
       repo: fontawesome/brands/github
-    palette:
-
+  palette:
       # Palette toggle for light mode
-      - media: "(prefers-color-scheme: light)"
-        scheme: default
+    - scheme: default
         toggle:
           icon: material/toggle-switch
           name: Switch to dark mode
 
       # Palette toggle for dark mode
-      - media: "(prefers-color-scheme: dark)"
-        scheme: slate
+    - scheme: slate
         toggle:
           icon: material/toggle-switch-off-outline
           name: Switch to light mode
-#nav:
-  #- Notebook page: index.ipynb
 hide:
   - navigation
 
